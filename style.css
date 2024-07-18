@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+nav {
+    font-weight: 500;
+    font-size: 17px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(175, 173, 173);
+}
+
+nav li {
+    margin: 15px 4px;
+}
+
+nav .mentor {
+    margin-right: 100px;
+}
+
+header .navbar ul li a:hover {
+    color: blue !important;
+} 
+
+
+header p {
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+header a {
+    border-color: white !important;
+}
+
+header a:hover {
+    border-color: rgb(77, 77, 163) !important;
+}
+
+a.lirePlus {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+ol li {
+    margin: 10px;
+}
+
+.box {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.section2 {
+    background-color: rgb(225, 229, 233);
+}
+
+
+
+.banner {
+    background-color: black;
+}
+
+.banner .banner-img {
+    background-image: url(img/hero-bg.jpg);
+    background-size: cover;
+}
+
+.banner .banner-overlay {
+    height: 95vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+.banner-overlay .banner-body {
+    color: white;
+}
+
+.btnColor {
+    border: none !important;
+    background-color: rgb(122, 122, 247) !important;
+}
+
+.btnColor:hover {
+    color: rgb(70, 70, 201) !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.btncolor {
+    background-color: rgb(83, 83, 231);
+}
+
+.divhover:hover .imghover {
+    background-color: rgba(0, 0, 255, 0.349);
+    color: white;
+}
+
+section#section3 .mt-2:hover {
+    color: rgb(46, 46, 250) !important;
+    background-color: white !important;
+    border-color: white !important;
+    transition: 0.8s;
+}
+
+section#section3 .otine:hover  .oti {
+    color: white !important ;
+    transition-duration: 0.3s;
+}
+
+section#section3 .otine:hover .otin {
+    background-color: rgb(20, 138, 248) !important;
+    transition-duration: 0.3s;
+
+}
+
+
+section#section4 .col-12:hover {
+    border-color: rgb(132, 132, 231) !important;
+    transition-duration: 0.5s;
+    color: rgb(87, 87, 206);
+    cursor: pointer;
+}
+
+section#section4 span {
+    font-size: 17px !important;
+    font-weight: 300;
+}
+
+section#section5 .ligne {
+    height: 2%;
+    width: 10%;
+    background-color: #3b59c4;
+    display: inline-block;
+}
+
+section#section5 span {
+    color: rgb(171, 179, 177);
+}
+
+section#section5 .name:hover {
+    color: #3b59c4;
+    transition: 0.5s;
+}
+
+section#section5 .name {
+    cursor: pointer;
+}
+
+section#section5 .bi {
+    color: rgb(171, 179, 177);
+    letter-spacing: 5px;
+}
+
+section#section5 .card-title:hover {
+    color: #3b59c4;
+    transition-duration: 0.5s;
+}
+
+section#section5 .card-title {
+    cursor: pointer;
+}
+
+footer .footerlink:hover {
+    color: #3b59c4;
+}
+
+.flechebas .bi {
+    font-size: 30px;
+    color: white;
+}
+
+.flechebas {
+    border: 5px solid rgb(3, 20, 255);
+    width: 40px;
+    height: 40px;
+    background-color: rgb(38, 0, 255);
+    position: fixed;
+    top: 580px;
+    left: 1280px;
+}
